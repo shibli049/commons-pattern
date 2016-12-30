@@ -18,15 +18,18 @@
 package rocks.elegantly.commons.pattern;
 
 import java.util.HashMap;
-import java.util.Locale;
-import java.util.NoSuchElementException;
-import org.omg.CosNaming.NamingContextPackage.NotFound;
 
 /**
  *
  * @author shibli
  */
 public class Patterns {
+    
+    private Patterns(){
+        
+    }
+    
+    
     public static final String CREDIT_CARD = "[\\d]+((-|\\s)?[\\d]+)+";
     
     public static final String IP_V4 = "^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$";
