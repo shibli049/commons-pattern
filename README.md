@@ -10,7 +10,7 @@ Some Common RegEx Pattern Collection For Java, inspired by, and ported from [exp
 Where can I get the latest release?
 -----------------------------------
 
-You can pull it from the [central Maven repositories](https://maven-badges.herokuapp.com/maven-central/rocks.elegantly.bd/commons-pattern):
+You can pull it from the [Central Maven repositories](https://maven-badges.herokuapp.com/maven-central/rocks.elegantly.bd/commons-pattern):
 
 ```xml
 <dependency>
