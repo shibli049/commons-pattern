@@ -47,6 +47,11 @@
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>4.3.0</version>
+            </plugin>
         </plugins>
     </build>
     <dependencies>
@@ -64,10 +69,10 @@
         </snapshotRepository>
     </distributionManagement>
     <profiles>
-        <profile> 
+        <profile>
             <id>release</id>
             <build>
-                <plugins>                    
+                <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
