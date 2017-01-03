@@ -23,7 +23,7 @@ You can pull it from the [Central Maven repositories](https://maven-badges.herok
 Contributing
 ------------
 
-If you plan to contribute, please see [this](CONTRIBUTING.md).
+If you plan to contribute, please see [this](https://github.com/shibli049/commons-pattern/blob/gh-pages/CONTRIBUTING.md).
 
 
 
